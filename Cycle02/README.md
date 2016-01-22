@@ -1,4 +1,4 @@
-# Cycle 02 README
+# Cycle 02 - Stack-based Buffer Overflows
 
 ## Executive Summary
 This cycle is a deep dive into Stack-based Buffer Overflow attacks.  A PDF presentation is provided to step the user through what happens on the stack during a buffer overflow.  A video demonstration is given of example code to provide hands-on experience working with these attacks.
