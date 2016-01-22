@@ -9,7 +9,7 @@ This cycle is a deep dive into Stack-based Buffer Overflow attacks.  A PDF prese
   * https://github.com/DSUcoder/CSC-840/blob/master/Cycle02/Buffer-Overflow-Overview.pdf
 * Example code
   * Source code and payloads are found in "src/" folder
-  * 
+  * https://github.com/DSUcoder/CSC-840/tree/master/Cycle02/src
 * Video demonstration
   * Provides a visual walk-through of the example code
   * https://youtu.be/RfnsErBoGw0
