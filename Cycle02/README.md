@@ -3,6 +3,12 @@
 ## Executive Summary
 This cycle is a deep dive into Stack-based Buffer Overflow attacks.  A PDF presentation is provided to step the user through what happens on the stack during a buffer overflow.  A video demonstration is given of example code to provide hands-on experience working with these attacks.
 
+## Content
+* PDF presentation in this folder provides a detailed walkthrough of what happens to the stack during the buffer overflow
+* Source code and payloads are found in "src/" folder
+* Video demonstration (https://youtu.be/RfnsErBoGw0) provides a walk-through of the example code
+
+
 ## Why Am I Interested?
 * A few weeks ago, I was talking with my co-worker about what I worked on in CSC-848 Advanced Software Exploitation.  I mentioned Return-Oriented Programming (ROP).  My co-worker had never heard of that concept and asked me to explain it.  The experience made me realize the importance of having an “elevator pitch” for key software exploitation concepts — be able to explain the concept at a high-level in 5 minutes, while also being able to dive deep to answer any follow-on questions.  Teaching a concept to others is the best way to fully grasp it, so I started this cycle intending to explain ROP.  I quickly found that there were many fundamental concepts that a person needs to understand before they can fully appreciate ROP.  Thus, I ended up using this cycle to explain stack-based buffer overflows. I created a toy example to provide hands-on experience.
 * The current state of cybersecurity was achieved through much back and forth between attackers and defenders.  It is important for cyber security professionals to be apprised of the latest techniques and tools that attackers use, as well as the defenses to mitigate those attacks.  However, to fully appreciate the current state of affairs, security professionals should also understand the history behind those tools, techniques, and mitigations.  Better yet, they should know the concepts so well that they can explain them clearly and concisely to others.
