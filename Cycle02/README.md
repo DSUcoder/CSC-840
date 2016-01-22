@@ -3,7 +3,7 @@
 ## Executive Summary
 This cycle is a deep dive into Stack-based Buffer Overflow attacks.  A PDF presentation is provided to step the user through what happens on the stack during a buffer overflow.  A video demonstration is given of example code to provide hands-on experience working with these attacks.
 
-## Content for learning about buffer overflows
+## Content
 * PDF Presentation
   * Provides a detailed walkthrough of what happens to the stack during the buffer overflow
   * https://github.com/DSUcoder/CSC-840/blob/master/Cycle02/Buffer-Overflow-Overview.pdf
