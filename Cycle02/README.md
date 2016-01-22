@@ -1,7 +1,7 @@
 # Cycle 02 README
 
 ## Executive Summary
-* This cycle is a deep dive into Stack-based Buffer Overflow attacks.  A PDF presentation is provided to step the user through what happens on the stack during a buffer overflow.  A video demonstration is given of example code to provide hands-on experience working with these attacks.
+This cycle is a deep dive into Stack-based Buffer Overflow attacks.  A PDF presentation is provided to step the user through what happens on the stack during a buffer overflow.  A video demonstration is given of example code to provide hands-on experience working with these attacks.
 
 ## Why Am I Interested?
 * A few weeks ago, I was talking with my co-worker about what I worked on in CSC-848 Advanced Software Exploitation.  I mentioned Return-Oriented Programming (ROP).  My co-worker had never heard of that concept and asked me to explain it.  The experience made me realize the importance of having an “elevator pitch” for key software exploitation concepts — be able to explain the concept at a high-level in 5 minutes, while also being able to dive deep to answer any follow-on questions.  Teaching a concept to others is the best way to fully grasp it, so I started this cycle intending to explain ROP.  I quickly found that there were many fundamental concepts that a person needs to understand before they can fully appreciate ROP.  Thus, I ended up using this cycle to explain stack-based buffer overflows. I created a toy example to provide hands-on experience.
