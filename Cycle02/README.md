@@ -4,9 +4,15 @@
 This cycle is a deep dive into Stack-based Buffer Overflow attacks.  A PDF presentation is provided to step the user through what happens on the stack during a buffer overflow.  A video demonstration is given of example code to provide hands-on experience working with these attacks.
 
 ## Content
-* PDF presentation in this folder provides a detailed walkthrough of what happens to the stack during the buffer overflow
-* Source code and payloads are found in "src/" folder
-* Video demonstration (https://youtu.be/RfnsErBoGw0) provides a walk-through of the example code
+* PDF presentation
+  * Provides a detailed walkthrough of what happens to the stack during the buffer overflow
+  * https://github.com/DSUcoder/CSC-840/blob/master/Cycle02/Buffer-Overflow-Overview.pdf
+* Example code
+  * Source code and payloads are found in "src/" folder
+  * 
+* Video demonstration
+  * Provides a visual walk-through of the example code
+  * https://youtu.be/RfnsErBoGw0
 
 
 ## Why Am I Interested?
