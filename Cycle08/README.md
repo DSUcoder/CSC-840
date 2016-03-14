@@ -19,17 +19,19 @@ This cycle is a quick overview of Address Space Layout Randomization (ASLR).  A 
 * I believe that every cyber security researcher should understand ALSR enough to explain it at a high-level to others.  ASLR is a mitigation that makes memory addresses less predictable, thereby making attacks more difficult. This cycle is my attempt to explain ASLR to my classmates and demonstrate that ASLR can be brute forced.
 
 ## 3 Main Ideas
-1. ASLR mitigations make traditional shellcode stack-based buffer overflow attacks more difficult
-2. ASLR can be brute forced
-3. Not every module supports ASLR
+1. ASLR mitigation randomizes memory addresses each time the executable is run, making it more difficult for the attacker to know where the code he wants to execute is located
+2. ASLR can be brute forced by attacking repetitively until the guessed address lands in the NOP-slep, assuming the program can handle multiple tries
+3. 64 bit architectures make brute forcing ASLR more difficult because there is more entropy
 
 ## Future Work
 Future work could include:
-- Explore Jump-oriented Programming
+- Memory leakage attacks to gain knowledge about the memory addresses without brute forcing
 - Discuss how Stack Canaries affect the scenario
-- Mitigations that make ROP more difficult, such as the Enhanced Mitigation Experience Toolkit (EMET)
+- Mitigations that make ROP more difficult, such as the Enhanced Mitigation Experience Toolkit (EMET) for Windows or grsecurity for Linux
 
 ## References
+- Sims, S. (2010). Brute forcing ASLR on Linux, part 1 [video].  Youtube. Retrieved from https://youtu.be/DcaVyy4yu88
+- Sims, S. (2010). Brute forcing ASLR on Linux, part 2 [video].  Youtube. Retrieved from https://youtu.be/LRjsv5zAHjQ 
 
 
 
