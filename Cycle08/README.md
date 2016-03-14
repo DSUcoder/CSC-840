@@ -12,7 +12,7 @@ This cycle is a quick overview of Address Space Layout Randomization (ASLR).  A 
   * https://github.com/DSUcoder/CSC-840/tree/master/Cycle08/src
 * Video Demonstration
   * Provides a visual walk-through of the ASLR example
-  * LINK TO BE PROVIDED
+  * https://youtu.be/x2drkmqW3H4
 
 
 ## Why Am I Interested?
