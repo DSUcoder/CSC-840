@@ -31,6 +31,7 @@ Future work could include:
 ## References
 - Piessens, F. (2014, July 13). Low Level Software Security: Attacks and Countermeasures [video].  Youtube. Retrieved from https://www.youtube.com/watch?v=ZLZkf8FVcsU
 - jip. (2012, December 21). Stack Smashing on a Modern Linux System. Retrieved from https://www.soldierx.com/tutorials/Stack-Smashing-Modern-Linux-System
+- Wikipedia. (n.d.). Buffer Overflow Protection. Retrieved from https://en.wikipedia.org/wiki/Buffer_overflow_protection#GNU_Compiler_Collection_.28GCC.29 
 
 
  
