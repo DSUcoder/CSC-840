@@ -12,7 +12,7 @@ This cycle is a quick overview of Stack Canaries.  A PDF presentation is provide
   * https://github.com/DSUcoder/CSC-840/tree/master/Cycle11/src
 * Video Demonstration
   * Provides a visual walk-through of the stack canary example
-  * https://youtu.be/x2drkmqW3H4
+  * https://youtu.be/DU1NTHA4pk8
 
 ## Why Am I Interested?
 * I believe that every cyber security researcher should be able to explain what stack canaries are.  Stack canaries make software exploitation more difficult, by storing values on the stack that are checked when returning from a function to ensure that the stack has not been overwritten.  This cycle demonstrates how stack canaries work.
